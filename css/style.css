@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 textarea {
-    border: 10px solid #888;
+    border: 10px solid #888888;
     border-radius: 5px;
     font-size: 1.5em;
     font-weight: bold;
@@ -50,7 +50,7 @@ textarea {
     background-color: #8f94bc;
 }
 #reset:active {
-    background-color: #444444;
+    background-color: #8fbc8f;
     color: white;
 }
 #tagline {
@@ -60,7 +60,7 @@ textarea {
     width: 30%;
 }
 #tagline-container {
-    background-color: darkseagreen;
+    background-color: #8fbc8f;
 }
 #timer {
     align-items: center;
