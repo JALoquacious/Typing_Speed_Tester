@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+/*----------------------------------- TAGS ----------------------------------*/
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+textarea {
+    border: 10px solid #888;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    min-width: 300px;
+    width: 30%;
+}/*--------------------------------------------------------------------------*/
+
+
+/*---------------------------------- CLASSES --------------------------------*/
+.full-width {
+    margin: 0 auto;
+    padding: 1em;
+}/*--------------------------------------------------------------------------*/
+
+
+/*------------------------------------- IDs ---------------------------------*/
+#headline {
+    margin: auto;
+    min-width: 300px;
+    width: 30%;
+}
+#headline-container {
+    background-color: #444444;
+    color: white;
+}
+#origin-text {
+    background-color: #DDDDDD;
+}
+#reset {
+    background-color: #ffa07d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.05em;
+    height: 75px;
+    min-width: 100px;
+    width: 50%;
+}
+#reset:hover {
+    background-color: #8f94bc;
+}
+#reset:active {
+    background-color: #444444;
+    color: white;
+}
+#tagline {
+    margin: auto;
+    min-width: 300px;
+    text-align: justify;
+    width: 30%;
+}
+#tagline-container {
+    background-color: darkseagreen;
+}
+#timer {
+    align-items: center;
+    display: flex;
+    font-size: 3vmax;
+}
+#timer-container {
+    display: flex;
+    font-size: 3vmax;
+    justify-content: space-between;
+    margin: auto;
+    width: 30%;
+}/*--------------------------------------------------------------------------*/

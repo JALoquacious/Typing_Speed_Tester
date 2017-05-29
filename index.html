@@ -4,18 +4,26 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/logic.js"></script>
 </head>
 
 <body>
-    <h1 id="headline" class="full-width">Typing Speed Test</h1>
-    <p id="tagline" class="full-width">In this typing test, you first paste text that you want to copy into the first text area. Your goal is to duplicate that text, precisely, in the text area beneath. The timer automatically begins when you start typing in the lower text area, and only stops when the text that you have typed matches the pasted text EXACTLY.</p>
-    <div id="origin-text">
-        <textarea rows="6" placeholder="Paste the text you want to type here."></textarea>
+    <div id="headline-container" class="full-width">
+        <h1 id="headline" class="full-width">Typing Speed Test</h1>
     </div>
-    <div id="typed-text">
-        <textarea rows="6" placeholder="The timer starts when you start typing."></textarea>
+    <div id="tagline-container" class="full-width">
+        <p id="tagline">In this typing test, you first paste text that you want to copy into the first text area. Your goal is to duplicate that text, precisely, in the text area beneath. The timer automatically begins when you start typing in the lower text area, and only stops when the text that you have typed matches the pasted text EXACTLY.</p>
     </div>
+    <div id="origin-text-container">
+        <textarea id="origin-text" rows="6" placeholder="Paste the text you want to type here."></textarea>
+    </div>
+    <div id="typed-text-container">
+        <textarea id="typed-text" rows="6" placeholder="The timer starts when you begin typing."></textarea>
+    </div>
+    <div id="timer-container">
+        <span id="timer">00:00:00</span>
+        <button id="reset">Start</button>
+    </div>
+    <script src="js/logic.js"></script>
 </body>
 
 </html>
